@@ -5,7 +5,7 @@ using UnityEngine;
 public class ClonaCubos : MonoBehaviour
 {
     public GameObject cuboPrefab;
-    void Start()
+    public void clonarCubo()
     {
         Instantiate(cuboPrefab);
     }
